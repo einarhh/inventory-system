@@ -1,0 +1,30 @@
+# Compiled binaries
+/server
+*.exe
+*.out
+
+# Test binaries and coverage
+*.test
+*.prof
+coverage.out
+coverage.html
+
+# Go build/work
+go.work
+go.work.sum
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
